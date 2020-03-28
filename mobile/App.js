@@ -1,3 +1,6 @@
+import 'intl'; /**pacote para internacionalização valores, moedas */
+import 'intl/locale-data/jsonp/pt-BR';
+
 import React from 'react';
 
 

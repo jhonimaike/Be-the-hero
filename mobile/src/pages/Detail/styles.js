@@ -45,8 +45,8 @@ export default StyleSheet.create({
 
     heroTitle: {
         fontWeight: 'bold',
-        fontSize: 20
-        color: '13131a',
+        fontSize: 20,
+        color: '#13131a',
         lineHeight: 30
     },
 
@@ -67,10 +67,14 @@ export default StyleSheet.create({
         borderRadius: 8,
         height: 50,
         width: '48%',
+        justifyContent: 'center',
+        alignItems: 'center'
+    },
 
-
-    }
-
-
+    actionText: {
+        color: '#FFF',
+        fontSize: 15,
+        fontWeight: 'bold'
+    },
 }
 )
